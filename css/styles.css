@@ -1,0 +1,27 @@
+.hero {
+    background:url('.css/img/hero-bg.png');
+
+}
+
+.hero ul {
+    text-decoration: none;
+    list-style: none;
+}
+.hero ul a {
+    text-decoration: none;
+}
+.hero ul li {
+    color: #ffffff;
+    display: inline;
+
+}
+.hero__button__google img {
+    display: inline;
+    max-height: 2.5rem;
+    max-width: 4rem;
+}
+.hero__button__appstore img {
+    display: inline;
+    max-height: 1.2rem;
+    max-width: 4rem;
+}
