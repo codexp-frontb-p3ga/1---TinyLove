@@ -6,14 +6,21 @@
     box-sizing: border-box;
     z-index: -1;
     background-color: rgba(169, 52, 52, 0.56);
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
 }
 .hero__content img {
+    margin: 0 auto .2rem;
     max-height: 2rem;
     display: block;
-    margin: auto;
+}
+.hero__content h6 {
+    
 }
 .hero ul {
     display: flex;
+	justify-content: center;
     text-decoration: none;
     list-style: none;
 }
@@ -21,9 +28,9 @@
     text-decoration: none;
 }
 .hero ul li {
-    justify-content: space-between;
-    color: #ffffff;
+    margin: .5rem;
     display: inline;
+    color: #ffffff;
 
 }
 .hero__button__google img {
